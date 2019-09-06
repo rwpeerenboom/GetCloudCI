@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Untagged Cloud IaaS</description>
+        <internal_name>untagged_cloud_iaas</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.cmdb_ci.ip_address","label":"Trigger➛Resource Tag History Record➛CMDB CI➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"ip_address"},{"name":"997b95f2-8e98-4c81-b069-46e6f557a8a2.task","label":"1.2.4.3➛task","reference":"task","reference_display":"task","type":"reference","base_type":"reference"},{"name":"aea7ee24-98ec-44b5-9b66-b1e34213e62d.serverci.sys_id","label":"1.2.2➛serverci➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"cmdb_ci_server","column_name":"sys_id"},{"name":"aea7ee24-98ec-44b5-9b66-b1e34213e62d.serverci.name","label":"1.2.2➛serverci➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_server","column_name":"name"},{"name":"a0fee862-6e50-47bf-83eb-e45d4335eded.task","label":"1.2.3.1➛task","reference":"task","reference_display":"task","type":"reference","base_type":"reference"},{"name":"aea7ee24-98ec-44b5-9b66-b1e34213e62d.serverci","label":"1.2.2➛serverci","reference":"cmdb_ci_server","reference_display":"serverci","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.cmdb_ci.name","label":"Trigger➛Resource Tag History Record➛CMDB CI➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"fb4ecaad-ac6f-4a34-b3ae-b9263097e3a8.table_name","label":"1.2.1➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name"},{"name":"fb4ecaad-ac6f-4a34-b3ae-b9263097e3a8.record","label":"1.2.1➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger➛Resource Tag History Record➛CMDB CI","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"sn_cmp_rsrc_tag_history","column_name":"cmdb_ci"},{"name":"87e2cf3d-eafc-440d-b80a-17c78b74cb47.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"87e2cf3d-eafc-440d-b80a-17c78b74cb47.Table","label":"1.1➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name"},{"name":"87e2cf3d-eafc-440d-b80a-17c78b74cb47.Records","label":"1.1➛Incident Records","reference":"incident","reference_display":"Incident Records","type":"records","base_type":"records"},{"name":"Created or Updated_1.current.tag_values.user","label":"Trigger➛Resource Tag History Record➛Tag values➛User","reference":"sn_cmp_tag_value","reference_display":"Tag Value","type":"reference","base_type":"reference","parent_table_name":"sn_cmp_tag_value_set","column_name":"user"},{"name":"65e9000b-4abb-4f5a-bd93-d680a57cbc85.Incident Task","label":"1.2.4.1➛Incident Task","reference":"incident_task","reference_display":"Incident Task","type":"document_id","base_type":"document_id"},{"name":"ebcc90e2-1bbf-4bca-9c6f-a244fc1960dd.record","label":"1.2.4.2➛Incident Task Record","reference":"incident_task","reference_display":"Incident Task Record","type":"reference","base_type":"reference"},{"name":"ebcc90e2-1bbf-4bca-9c6f-a244fc1960dd.table_name","label":"1.2.4.2➛Incident Task Table","reference":"incident_task","reference_display":"Incident Task Table","type":"table_name","base_type":"table_name"},{"name":"763ff6e6-ccc5-47f3-8a6e-38cf9ff1d52b.item","label":"1.3.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"a8981df6-3a75-4a15-8451-ad05d35602fd.task","label":"1.3.1.1➛task","reference":"task","reference_display":"task","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger➛Resource Tag History Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_cmp_rsrc_tag_history","column_name":"sys_created_on"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Untagged Cloud IaaS</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 13:50:00</sys_created_on>
+        <sys_id>07cae2d11b5f7f005cfedd33dd4bcb23</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Untagged Cloud IaaS</sys_name>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_flow_07cae2d11b5f7f005cfedd33dd4bcb23</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=07cae2d11b5f7f005cfedd33dd4bcb23"/>
+    <sys_variable_value action="delete_multiple" query="document_key=07cae2d11b5f7f005cfedd33dd4bcb23"/>
+</record_update>

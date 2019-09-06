@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e7be6ed51b5f7f005cfedd33dd4bcb05</block>
+        <comment/>
+        <connected_to>ec6a27be-135a-4481-a406-28d5ff3eb928</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Untagged Cloud IaaS">07cae2d11b5f7f005cfedd33dd4bcb23</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>1.2.4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1de422c4-623f-4885-a03a-70cfe6a1a97b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:07:13</sys_created_on>
+        <sys_id>ebbe6ed51b5f7f005cfedd33dd4bcb06</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_ebbe6ed51b5f7f005cfedd33dd4bcb06</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:32</sys_updated_on>
+        <ui_id>c31c0cdd-0510-4cfc-a92c-81043d17145a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ebbe6ed51b5f7f005cfedd33dd4bcb06"/>
+</record_update>

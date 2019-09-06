@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cc0e6e951b5f7f005cfedd33dd4bcb03</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Untagged Cloud IaaS">07cae2d11b5f7f005cfedd33dd4bcb23</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ce1d0ff2-f45f-4773-9cd6-27a5b308114c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>c00e6e951b5f7f005cfedd33dd4bcb05</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_c00e6e951b5f7f005cfedd33dd4bcb05</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:32</sys_updated_on>
+        <ui_id>1de422c4-623f-4885-a03a-70cfe6a1a97b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c00e6e951b5f7f005cfedd33dd4bcb05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c00e6e951b5f7f005cfedd33dd4bcb05</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:04:00</sys_created_on>
+        <sys_id>880e6e951b5f7f005cfedd33dd4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:04:00</sys_updated_on>
+        <value>No records found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c00e6e951b5f7f005cfedd33dd4bcb05</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:04:00</sys_created_on>
+        <sys_id>c40e6e951b5f7f005cfedd33dd4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:04:00</sys_updated_on>
+        <value>{{87e2cf3d-eafc-440d-b80a-17c78b74cb47.Count}}=0</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

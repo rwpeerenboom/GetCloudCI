@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Incident Task on Incident">e403e0a4731103005e7d234ffff6a7a9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Untagged Cloud IaaS">07cae2d11b5f7f005cfedd33dd4bcb23</flow>
+        <order>1.2.4.1</order>
+        <parent_ui_id>c31c0cdd-0510-4cfc-a92c-81043d17145a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:07:13</sys_created_on>
+        <sys_id>1fbe2ed51b5f7f005cfedd33dd4bcbf4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1fbe2ed51b5f7f005cfedd33dd4bcbf4</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:32</sys_updated_on>
+        <ui_id>65e9000b-4abb-4f5a-bd93-d680a57cbc85</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fbe2ed51b5f7f005cfedd33dd4bcbf4"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fbe2ed51b5f7f005cfedd33dd4bcbf4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_incident</field>
+        <id>1fbe2ed51b5f7f005cfedd33dd4bcbf4</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:07:13</sys_created_on>
+        <sys_id>dfbe2ed51b5f7f005cfedd33dd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:07:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e403e0a4731103005e7d234ffff6a7a9</table>
+        <value>{{fb4ecaad-ac6f-4a34-b3ae-b9263097e3a8.record}}</value>
+    </sys_element_mapping>
+</record_update>

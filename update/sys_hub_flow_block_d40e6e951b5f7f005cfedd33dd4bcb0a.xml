@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_block">
+    <sys_hub_flow_block action="INSERT_OR_UPDATE">
+        <label_cache/>
+        <name/>
+        <sys_class_name>sys_hub_flow_block</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:04:00</sys_created_on>
+        <sys_id>d40e6e951b5f7f005cfedd33dd4bcb0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_flow_block_d40e6e951b5f7f005cfedd33dd4bcb0a</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:34</sys_updated_on>
+    </sys_hub_flow_block>
+</record_update>

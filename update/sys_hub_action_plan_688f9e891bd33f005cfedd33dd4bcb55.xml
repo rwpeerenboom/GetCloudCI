@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Server CI to Cloud Resource CI">e9ee5e491bd33f005cfedd33dd4bcb93</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"688f9e891bd33f005cfedd33dd4bcb55","name":"plan"}}</plan>
+        <snapshot>31aa62d11b5f7f005cfedd33dd4bcbb3</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-14 18:22:12</sys_created_on>
+        <sys_id>688f9e891bd33f005cfedd33dd4bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>e9ee5e491bd33f005cfedd33dd4bcb93</sys_name>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_action_plan_688f9e891bd33f005cfedd33dd4bcb55</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 13:49:25</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

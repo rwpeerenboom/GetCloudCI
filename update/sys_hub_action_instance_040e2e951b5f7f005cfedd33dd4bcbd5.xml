@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Untagged Cloud IaaS">07cae2d11b5f7f005cfedd33dd4bcb23</flow>
+        <order>1.2.1</order>
+        <parent_ui_id>1de422c4-623f-4885-a03a-70cfe6a1a97b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>040e2e951b5f7f005cfedd33dd4bcbd5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_action_instance_040e2e951b5f7f005cfedd33dd4bcbd5</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:31</sys_updated_on>
+        <ui_id>fb4ecaad-ac6f-4a34-b3ae-b9263097e3a8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=040e2e951b5f7f005cfedd33dd4bcbd5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>040e2e951b5f7f005cfedd33dd4bcbd5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>c80e2e951b5f7f005cfedd33dd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:03:59</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=040e2e951b5f7f005cfedd33dd4bcbd5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>040e2e951b5f7f005cfedd33dd4bcbd5</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>840e2e951b5f7f005cfedd33dd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>040e2e951b5f7f005cfedd33dd4bcbd5</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>480e2e951b5f7f005cfedd33dd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>cmdb_ci={{Created or Updated_1.current.cmdb_ci}}^short_description=Cloud Resource: {{Created or Updated_1.current.cmdb_ci.name}}Is missing required tags for compliance^assignment_group={"display":"Cloud Operator Group","value":"3544b1da878b320053c9f4bbe3e3ece2"}</value>
+    </sys_element_mapping>
+</record_update>

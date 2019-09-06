@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">cdc8896487110300123eaf8e36cb0b24</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Untagged Cloud IaaS">07cae2d11b5f7f005cfedd33dd4bcb23</flow>
+        <order>1.2.3.1</order>
+        <parent_ui_id>ec6a27be-135a-4481-a406-28d5ff3eb928</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>080e2e951b5f7f005cfedd33dd4bcbf3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GetCICloudCI" source="x_snc_getcicloudci">811e1ac51bd33f005cfedd33dd4bcbac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GetCICloudCI">811e1ac51bd33f005cfedd33dd4bcbac</sys_scope>
+        <sys_update_name>sys_hub_action_instance_080e2e951b5f7f005cfedd33dd4bcbf3</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:12:31</sys_updated_on>
+        <ui_id>a0fee862-6e50-47bf-83eb-e45d4335eded</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=080e2e951b5f7f005cfedd33dd4bcbf3"/>
+    <sys_element_mapping action="delete_multiple" query="id=080e2e951b5f7f005cfedd33dd4bcbf3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>080e2e951b5f7f005cfedd33dd4bcbf3</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>400e2e951b5f7f005cfedd33dd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cdc8896487110300123eaf8e36cb0b24</table>
+        <value>{{fb4ecaad-ac6f-4a34-b3ae-b9263097e3a8.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_note</field>
+        <id>080e2e951b5f7f005cfedd33dd4bcbf3</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-15 14:03:59</sys_created_on>
+        <sys_id>040e2e951b5f7f005cfedd33dd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cdc8896487110300123eaf8e36cb0b24</table>
+        <value>Linked Server CI is {{aea7ee24-98ec-44b5-9b66-b1e34213e62d.serverci.name}} SysID: {{aea7ee24-98ec-44b5-9b66-b1e34213e62d.serverci.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>
